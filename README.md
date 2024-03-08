@@ -14,7 +14,7 @@ IoTserver-
   |  |-images
   |  |  |-co60.png : 過去60分間のCO2濃度の図、app.py内でアクセスがあると新たに作成する
   |-instance
-    |data.db : SQLAlchemyのデータ
+`    |data.db : SQLAlchemyのデータ  `
 
 ## 概要
 温湿度センサーとCO2濃度センサーを搭載したArduinoと外部公開していないLAN内のサーバーを、http通信で繋ぎ、LAN内から自室の温湿度とCO2濃度をモニター出来るようにした。

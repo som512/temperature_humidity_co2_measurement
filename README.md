@@ -2,7 +2,7 @@
 ## ファイル構成
 temperature_humidity_co2  
   |-temperature_humidity_co2.ino : Arduino(EPS32)用のプログラム。温湿度センサーとCO2センサー付き。  
-IoTserver-  
+IoTserver  
   |-app.py : Flaskサーバー  
   |-data60.pickle : 過去60分間の温湿度とCO2濃度のデータ  
   |-templates  

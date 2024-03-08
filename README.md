@@ -13,7 +13,7 @@ IoTserver
 &emsp;|&emsp;|-images  
 &emsp;|&emsp;|&emsp;|-co60.png : 過去60分間のCO2濃度の図、app.py内でアクセスがあると新たに作成する  
 &emsp;|-instance  
-&emsp;|&emsp;|data.db : SQLAlchemyのデータ  
+&emsp;|&emsp;|-data.db : SQLAlchemyのデータ  
 &emsp;|-temperature_humidity_co2  
 &emsp;|&emsp;|-temperature_humidity_co2.ino : Arduino(EPS32)用のプログラム。温湿度センサーとCO2センサー付き。  
 

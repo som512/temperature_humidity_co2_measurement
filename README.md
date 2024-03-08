@@ -3,6 +3,7 @@
 IoTserver  
 &emsp;|-app.py : Flaskサーバー  
 &emsp;|-data60.pickle : 過去60分間の温湿度とCO2濃度のデータ  
+&emsp;|-sample.pnt : 過去60分間のCO2濃度の推移図
 &emsp;|-templates  
 &emsp;|&emsp;|-base.html : 他ページでも使いまわす部分(head,header,footer)を格納  
 &emsp;|&emsp;|-index.html : ホームページ  
